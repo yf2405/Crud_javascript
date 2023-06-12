@@ -1,0 +1,106 @@
+
+
+:root {
+    --color-primary: #66afe9;
+    --color-success:#3FDDD3;
+    --color-accent: #3FDDD3;
+    --color-white: white;
+    --color-gray: #ccc;
+    --color-update-btn: #2196f3;
+    --color-cancel-btn: #f44336;
+    --color-edit-btn: #ffc107;
+    --color-delete-btn: #dc3545;
+  }
+  
+  #container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #input-container {
+    margin-bottom: 20px;
+  }
+  
+  input,
+  #update-name-input,
+  #update-email-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-gray);
+  }
+  
+  input:focus,
+  #update-name-input:focus,
+  #update-email-input:focus {
+    border-color: var(--color-primary);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75),
+      0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75),
+      0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--color-success);
+    color: var(--color-white);
+    border: none;
+  }
+  
+  button:hover {
+    background-color: var(--color-accent);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-gray);
+  }
+  
+  th {
+    background-color: var(--color-success);
+    color: var(--color-white);
+  }
+  
+
+  #update-btn {
+    background-color: var(--color-update-btn);
+  }
+  
+  #cancel-btn {
+    background-color: var(--color-cancel-btn);
+  }
+  
+  .edit-btn {
+    background-color: var(--color-edit-btn);
+  }
+  
+  .delete-btn {
+    background-color: var(--color-delete-btn);
+    margin-left: 10px;
+  }
+
+.alert {
+    background-color: var(--color-delete-btn);
+    color: wheat;
+    padding: 10px;
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

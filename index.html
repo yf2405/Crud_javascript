@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div id ="container">
+        <h1>CRUD Operations</h1>
+        <div id="input-container">
+            <input type="text" id="name-input" placeholder="Enter name">
+            <input type="text" id="product-input" placeholder="Enter product">
+            <input type="number" id="price-input" placeholder="Enter price">
+            <button id="add-btn">Add</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <div id="update-container">
+            <input type="text" id="update-name-input">
+            <input type="text"id="update-product-input">
+            <input type="number"id="update-price-input">
+            <button id="update-btn">Updaate</button>
+            <button id="cancel-btn">Cancel</button>
+        </div>
+        </div>
+      
+    </div>
+    <script src="/script/renderTable.js"></script>
+</body>
+</html>
